@@ -3,57 +3,626 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cristian English | Learn English with Cristian</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Personalized English lessons with Cristian. Build confidence and use English in real life, work, travel and conversation."
+    >
+
+    <title>Cristian English | Personalized English Lessons</title>
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Cristian English</h1>
+    <!-- HERO -->
+    <section class="hero" id="home">
 
-        <p>
-            Practical English for real life, work, travel and confidence.
-        </p>
-    </header>
+        <!-- Rotating background images -->
+        <div class="hero-background">
 
-    <main>
+            <div
+                class="hero-slide active"
+                style="background-image: url('images/study1.jpg');"
+            ></div>
 
-        <section>
-            <h2>Hi, I'm Cristian 👋</h2>
+            <div
+                class="hero-slide"
+                style="background-image: url('images/study2.jpg');"
+            ></div>
+
+            <div
+                class="hero-slide"
+                style="background-image: url('images/study3.jpg');"
+            ></div>
+
+            <div
+                class="hero-slide"
+                style="background-image: url('images/study4.jpg');"
+            ></div>
+
+        </div>
+
+        <!-- Dark overlay -->
+        <div class="hero-overlay"></div>
+
+
+        <!-- NAVIGATION -->
+        <header class="navbar">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">💬</span>
+                Cristian <span>English</span>
+            </a>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#lessons">Lessons</a>
+                <a href="#approach">My Approach</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="nav-button">
+                Book a Lesson
+            </a>
+
+        </header>
+
+
+        <!-- HERO CONTENT -->
+        <div class="hero-container">
+
+            <div class="hero-content">
+
+                <p class="hero-label">
+                    PERSONALIZED ENGLISH LESSONS
+                </p>
+
+                <h1>
+                    Learn English.<br>
+                    Build confidence.<br>
+                    <span>Connect with the world.</span>
+                </h1>
+
+                <div class="accent-line"></div>
+
+                <p class="hero-description">
+                    Hi, I'm Cristian. I help students improve their English
+                    through practical, personalized lessons built around
+                    their goals, interests and real-life needs.
+                </p>
+
+
+                <div class="hero-features">
+
+                    <div class="feature">
+                        <span class="feature-icon">💬</span>
+                        <span>
+                            Real<br>
+                            Conversations
+                        </span>
+                    </div>
+
+                    <div class="feature">
+                        <span class="feature-icon">💼</span>
+                        <span>
+                            Professional<br>
+                            English
+                        </span>
+                    </div>
+
+                    <div class="feature">
+                        <span class="feature-icon">🌎</span>
+                        <span>
+                            Global<br>
+                            Opportunities
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="hero-actions">
+
+                    <a href="#contact" class="primary-button">
+                        <span>📅</span>
+                        Book a Lesson
+                    </a>
+
+                    <a href="#about" class="secondary-link">
+                        Meet Cristian ↓
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Slide indicators -->
+        <div class="slide-indicators">
+
+            <button class="indicator active" aria-label="Image 1"></button>
+            <button class="indicator" aria-label="Image 2"></button>
+            <button class="indicator" aria-label="Image 3"></button>
+            <button class="indicator" aria-label="Image 4"></button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+
+        <div class="section-container about-grid">
+
+            <div class="about-image">
+
+                <div class="image-frame">
+                    <img
+                        src="images/profesionalpic.jpg"
+                        alt="Cristian, English teacher"
+                    >
+                </div>
+
+                <div class="about-badge">
+                    <strong>Personalized</strong>
+                    <span>English Learning</span>
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="section-label">
+                    MEET YOUR TEACHER
+                </p>
+
+                <h2>
+                    English lessons built around
+                    <span>who you are.</span>
+                </h2>
+
+                <p>
+                    Learning English should not feel like memorizing
+                    random grammar rules from a textbook.
+                </p>
+
+                <p>
+                    My lessons connect English with your real life:
+                    your profession, interests, goals, travel plans,
+                    conversations and experiences.
+                </p>
+
+                <p>
+                    Together, we build the English you actually want
+                    to use.
+                </p>
+
+                <a href="#lessons" class="text-link">
+                    Explore my lessons →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- LESSONS -->
+    <section class="lessons section" id="lessons">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    PERSONALIZED LEARNING
+                </p>
+
+                <h2>
+                    English for the things that
+                    <span>matter to you.</span>
+                </h2>
+
+                <p>
+                    Every student has different goals.
+                    Your lessons should reflect them.
+                </p>
+
+            </div>
+
+
+            <div class="lesson-grid">
+
+                <article class="lesson-card">
+
+                    <div class="lesson-icon">💬</div>
+
+                    <h3>Conversation</h3>
+
+                    <p>
+                        Speak more naturally and confidently
+                        through real conversations and topics
+                        connected to your life.
+                    </p>
+
+                </article>
+
+
+                <article class="lesson-card">
+
+                    <div class="lesson-icon">💼</div>
+
+                    <h3>Professional English</h3>
+
+                    <p>
+                        Prepare for interviews, meetings,
+                        presentations and communication
+                        in international workplaces.
+                    </p>
+
+                </article>
+
+
+                <article class="lesson-card">
+
+                    <div class="lesson-icon">✈️</div>
+
+                    <h3>Travel & Real Life</h3>
+
+                    <p>
+                        Build practical English for travel,
+                        daily situations and communicating
+                        confidently around the world.
+                    </p>
+
+                </article>
+
+
+                <article class="lesson-card">
+
+                    <div class="lesson-icon">🎯</div>
+
+                    <h3>Your Goals</h3>
+
+                    <p>
+                        Lessons adapted to your profession,
+                        hobbies, interests, level and
+                        personal objectives.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- APPROACH -->
+    <section class="approach section" id="approach">
+
+        <div class="section-container approach-grid">
+
+            <div>
+
+                <p class="section-label">
+                    MY APPROACH
+                </p>
+
+                <h2>
+                    Your English.<br>
+                    Your goals.<br>
+                    <span>Your path.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="approach-content">
+
+                <div class="approach-item">
+
+                    <span>01</span>
+
+                    <div>
+                        <h3>Understand your goals</h3>
+
+                        <p>
+                            We identify where you are,
+                            what you need and where you want
+                            your English to take you.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="approach-item">
+
+                    <span>02</span>
+
+                    <div>
+                        <h3>Personalize the learning</h3>
+
+                        <p>
+                            Your lessons use topics,
+                            vocabulary and situations
+                            connected to your real life.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="approach-item">
+
+                    <span>03</span>
+
+                    <div>
+                        <h3>Use English confidently</h3>
+
+                        <p>
+                            We practice communication so
+                            English becomes something you use,
+                            not simply something you study.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CTA -->
+    <section class="contact" id="contact">
+
+    <div class="contact-wrapper">
+
+        <div class="contact-heading">
+
+            <p class="section-label">CONTACT</p>
+
+            <h2>Let's talk about your English goals.</h2>
 
             <p>
-                I'm an English teacher based in Japan.
-                I help students build the confidence to use English
-                in real-life situations.
-            </p>
-        </section>
-
-        <section>
-            <h2>English built around you</h2>
-
-            <p>
-                Personalized English lessons based on your goals,
-                interests and real-life needs.
-            </p>
-        </section>
-
-        <section>
-            <h2>Let's learn together</h2>
-
-            <p>
-                Online English lessons for students around the world.
+                Tell me a little about yourself, what you want to improve
+                and what you would like to achieve with English.
             </p>
 
-            <button>Book a Class</button>
-        </section>
+        </div>
 
-    </main>
 
+        <div class="contact-grid">
+
+            <!-- FORM -->
+            <form
+    class="contact-form"
+    action="https://formspree.io/f/mkjwqkgq"
+    method="POST"
+>
+
+    <input
+        type="hidden"
+        name="_subject"
+        value="New inquiry from CristianEnglish.org"
+    >
+
+    <input
+        type="hidden"
+        name="_format"
+        value="plain"
+    >
+
+    <div class="form-group">
+        <label for="name">Name</label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+        >
+    </div>
+<div class="form-group">
+    <label for="email">Email</label>
+
+    <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="you@email.com"
+        required
+    >
+</div>
+
+                <div class="form-group">
+                    <label for="goal">What would you like to improve?</label>
+
+                    <select id="goal" name="goal">
+
+                        <option value="">
+                            Select your main goal
+                        </option>
+
+                        <option>
+                            Conversation
+                        </option>
+
+                        <option>
+                            Professional English
+                        </option>
+
+                        <option>
+                            Interviews
+                        </option>
+
+                        <option>
+                            Travel
+                        </option>
+
+                        <option>
+                            General English
+                        </option>
+
+                        <option>
+                            English for my child
+                        </option>
+
+                        <option>
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Tell me about your goals
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="What would you like to achieve with English?"
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="primary-button contact-submit"
+                >
+                    Send Message →
+                </button>
+
+            </form>
+
+
+            <!-- CONTACT INFO -->
+            <div class="contact-info">
+
+                <p class="contact-small-title">
+                    READY TO GET STARTED?
+                </p>
+
+                <h3>
+                    Let's build a learning plan around you.
+                </h3>
+
+                <p>
+                    Whether you're learning English for work,
+                    travel, conversation, interviews or personal growth,
+                    tell me what you're looking for and I'll get back to you.
+                </p>
+
+
+                <div class="contact-detail">
+
+                    <span>🌎</span>
+
+                    <div>
+                        <strong>Online lessons</strong>
+                        <p>Available for students worldwide</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <span>💬</span>
+
+                    <div>
+                        <strong>Personalized learning</strong>
+                        <p>Lessons designed around your goals</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <span>📩</span>
+
+                    <div>
+                        <strong>Contact</strong>
+                        <p>hello@cristianenglish.org</p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-note">
+
+                    <p>
+                        Not sure what kind of lesson you need?
+                        No problem. Tell me about your situation
+                        and we can figure it out together.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- FOOTER -->
     <footer>
-        <p>© 2026 Cristian English</p>
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                Cristian <span>English</span>
+            </div>
+
+            <p>
+                Personalized English learning for real life.
+            </p>
+
+            <p class="copyright">
+                © 2026 Cristian English
+            </p>
+
+        </div>
+
     </footer>
+
+
+    <script src="js/script.js"></script>
 
 </body>
 
